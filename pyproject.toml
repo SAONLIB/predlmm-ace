@@ -16,6 +16,10 @@ dependencies = [
   "scipy>=1.9",
 ]
 
+[project.urls]
+Repository = "https://github.com/SAONLIB/predlmm-ace"
+Issues = "https://github.com/SAONLIB/predlmm-ace/issues"
+
 [project.optional-dependencies]
 test = ["pytest>=7"]
 

@@ -1,5 +1,7 @@
 # PredLMM-ACE
 
+Repository: <https://github.com/SAONLIB/predlmm-ace>
+
 PredLMM-ACE estimates additive-genetic, shared-family or household, and
 residual variance components using a low-rank Nyström representation of a
 genetic relationship matrix (GRM):
@@ -29,6 +31,7 @@ contains the simulation and ABCD-trait Slurm workflows used for the manuscript.
 ## Installation
 
 ```bash
+git clone https://github.com/SAONLIB/predlmm-ace.git
 cd predlmm-ace
 python -m venv .venv
 source .venv/bin/activate
@@ -110,6 +113,5 @@ docs/                  model, inference, and reproducibility notes
 
 ## License and citation
 
-The code is released under the BSD 3-Clause license. Add the repository URL and
-the final manuscript citation to `CITATION.cff` after the GitHub repository and
-article identifiers exist.
+The code is released under the BSD 3-Clause license. Add the final manuscript
+citation and article identifier to `CITATION.cff` when available.

@@ -8,4 +8,6 @@ authors:
 version: 0.1.0
 date-released: 2026-09-22
 license: BSD-3-Clause
+repository-code: "https://github.com/SAONLIB/predlmm-ace"
+url: "https://github.com/SAONLIB/predlmm-ace"
 abstract: "Low-rank profile-likelihood estimation of additive-genetic, shared-family, and residual variance components."

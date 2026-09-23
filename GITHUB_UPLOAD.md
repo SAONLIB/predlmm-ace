@@ -11,17 +11,21 @@ git add .
 git commit -m "Initial PredLMM-ACE research release"
 ```
 
-Create an empty GitHub repository named `predlmm-ace`, then either use GitHub
-CLI:
+The canonical repository is:
+
+<https://github.com/SAONLIB/predlmm-ace>
+
+To push to it with GitHub CLI authentication:
 
 ```bash
-gh repo create predlmm-ace --private --source=. --remote=origin --push
+git remote add origin https://github.com/SAONLIB/predlmm-ace.git
+git push -u origin main
 ```
 
 or add the remote shown by GitHub:
 
 ```bash
-git remote add origin git@github.com:YOUR_ACCOUNT/predlmm-ace.git
+git remote add origin git@github.com:SAONLIB/predlmm-ace.git
 git push -u origin main
 ```
 
