@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use PredLMM-ACE, please cite the associated manuscript and this software release."
+title: "PredLMM-ACE"
+type: software
+authors:
+  - family-names: Basu
+    given-names: Saonli
+version: 0.1.0
+date-released: 2026-09-22
+license: BSD-3-Clause
+abstract: "Low-rank profile-likelihood estimation of additive-genetic, shared-family, and residual variance components."

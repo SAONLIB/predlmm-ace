@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "predlmm-ace"
+version = "0.1.0"
+description = "Low-rank genetic and family variance-component estimation with PredLMM-ACE"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "BSD-3-Clause"}
+authors = [{name = "Saonli Basu"}]
+dependencies = [
+  "numpy>=1.23",
+  "pandas>=1.5",
+  "scipy>=1.9",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+predlmm-fit = "predlmm_ace.fit:main"
+predlmm-profile-se = "predlmm_ace.profile_se:main"
+predlmm-grm-to-nystrom = "predlmm_ace.grm_to_nystrom:main"
+predlmm-select-knots = "predlmm_ace.select_knots:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
